@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication2", "WindowsFormsApplication2\WindowsFormsApplication2.csproj", "{5167F50A-DE80-431A-B346-C513660FDEF9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MakinaTakipProgramı", "MakinaTakipProgramı\MakinaTakipProgramı.vdproj", "{0B35A1AA-23F8-47D3-985D-98931F6C6CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5167F50A-DE80-431A-B346-C513660FDEF9}.Debug|x86.ActiveCfg = Debug|x86
+		{5167F50A-DE80-431A-B346-C513660FDEF9}.Debug|x86.Build.0 = Debug|x86
+		{5167F50A-DE80-431A-B346-C513660FDEF9}.Release|x86.ActiveCfg = Release|x86
+		{5167F50A-DE80-431A-B346-C513660FDEF9}.Release|x86.Build.0 = Release|x86
+		{0B35A1AA-23F8-47D3-985D-98931F6C6CE4}.Debug|x86.ActiveCfg = Debug
+		{0B35A1AA-23F8-47D3-985D-98931F6C6CE4}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

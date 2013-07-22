@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5167F50A-DE80-431A-B346-C513660FDEF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication2</RootNamespace>
+    <AssemblyName>WindowsFormsApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="baglanti.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.cs">
+      <DependentUpon>index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform.Designer.cs">
+      <DependentUpon>mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="makinaListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="makinaListe.Designer.cs">
+      <DependentUpon>makinaListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="makinarapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="makinarapor.Designer.cs">
+      <DependentUpon>makinarapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="makinaservis.cs" />
+    <Compile Include="makrapor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="makrapor2.Designer.cs">
+      <DependentUpon>makrapor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MTSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MTSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MTSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MTSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="personelListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personelListe.Designer.cs">
+      <DependentUpon>personelListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personelrapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personelrapor.Designer.cs">
+      <DependentUpon>personelrapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personelservis.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sfiredegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sfiredegistir.Designer.cs">
+      <DependentUpon>sfiredegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yeniuye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yeniuye.Designer.cs">
+      <DependentUpon>yeniuye.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="makinaListe.resx">
+      <DependentUpon>makinaListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="makinarapor.resx">
+      <DependentUpon>makinarapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="makrapor2.resx">
+      <DependentUpon>makrapor2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personelListe.resx">
+      <DependentUpon>personelListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personelrapor.resx">
+      <DependentUpon>personelrapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="sfiredegistir.resx">
+      <DependentUpon>sfiredegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yeniuye.resx">
+      <DependentUpon>yeniuye.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="MTSDataSet.xsc">
+      <DependentUpon>MTSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MTSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MTSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MTSDataSet.xss">
+      <DependentUpon>MTSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MTSDataSet1.xsc">
+      <DependentUpon>MTSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MTSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MTSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MTSDataSet1.xss">
+      <DependentUpon>MTSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MTS.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Leopard Icon %28103%29.png" />
+    <None Include="Resources\User2.png" />
+    <None Include="Resources\Actualiser1.png" />
+    <None Include="Resources\Search %282%29.png" />
+    <None Include="Resources\Imprimante.png" />
+    <None Include="Resources\Actualiser.png" />
+    <None Include="Resources\001_061.png" />
+    <None Include="Resources\iconexcel.png" />
+    <None Include="Resources\Front Shovel.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\001_06.png" />
+    <None Include="Resources\My Documents.png" />
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\Leopard Icon %28117%29.png" />
+    <None Include="Resources\User1.png" />
+    <None Include="Resources\Folder - MSN M Chatlogs.png" />
+    <None Include="Resources\Validé.png" />
+    <None Include="Resources\Padlock User Control.png" />
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
